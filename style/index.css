@@ -1,35 +1,53 @@
 body {
     display: flex;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
-
+/* bloco azul da esquerda */
 .esquerda {
     width: 3.5%;
     background-color: #506283;
 }
 
 
-
+/* bloco central */
 .centro {
     width: 31.5%;
-    background-color: #ececec;
+    background-color: #ececec;    
+    text-align: center;
 }
 
 .perfil {
     background-color: #d9d6d6;
     justify-items: center;
+    padding-bottom: 10px;
 }
 
 .perfil img {
     width: 70%;
-    border-radius: 250px;
+    border-radius: 300px;
+    margin-top: 10%;
 }
 
 .perfil #name {
-    font-size: 280%;
+    font-weight: 900;
+    font-size: 4vw;
+    margin-top: 0.2em;
+    margin-bottom: 0em;
 }
+
+.perfil #lastname {
+    font-weight: 700;
+    font-size: 3.5vw;
+    margin: 0em;
+}
+
+.perfil p {
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+
 
 .contatos img {
     width: 35px;
@@ -44,5 +62,5 @@ body {
 
 .direita {
     width: 65%;
-    background-color: #ffffff;
+    background-color: #2abb10;
 }
