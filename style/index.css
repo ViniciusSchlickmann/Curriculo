@@ -18,6 +18,7 @@ body {
     text-align: center;
 }
 
+/* área perfil */
 .perfil {
     background-color: #d9d6d6;
     justify-items: center;
@@ -44,22 +45,40 @@ body {
 }
 
 .perfil p {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5vw;
 }
 
-
-.contatos img {
-    width: 35px;
-    height: 35px;
+.perfil hr {
+    background-color: #808080;
+    height: 1%;
+    width: 80%;
 }
 
+
+/* área contatos */
 #whats, #email, #linkedin, #instagram {
     display: flex;
+    align-items: center;
+    padding-left: 12%;
+    padding-top: 5%;
+}
+
+.contatos img {
+    width: 10%;
+    height: 10%;
+    padding-right: 3%;
+}
+
+#whats, #email, #linkedin, #instagram p {
+    font-weight: 700;
+    font-size: 1.2vw;
+    margin-top: 0em;
+    margin-bottom: 0em;
 }
 
 
-
+/* bloco da direita */
 .direita {
     width: 65%;
     background-color: #2abb10;
