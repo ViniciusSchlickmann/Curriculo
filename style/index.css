@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.esquerda {
+    width: 3.5%;
+    background-color: #506283;
+}
+
+
+
+.centro {
+    width: 31.5%;
+    background-color: #ececec;
+}
+
+.perfil {
+    background-color: #d9d6d6;
+    justify-items: center;
+}
+
+.perfil img {
+    width: 70%;
+    border-radius: 250px;
+}
+
+.perfil #name {
+    font-size: 280%;
+}
+
+.contatos img {
+    width: 35px;
+    height: 35px;
+}
+
+#whats, #email, #linkedin, #instagram {
+    display: flex;
+}
+
+
+
+.direita {
+    width: 65%;
+    background-color: #ffffff;
+}
