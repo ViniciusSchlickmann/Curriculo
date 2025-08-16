@@ -8,7 +8,7 @@ body {
 .esquerda {
     width: 3.5%;
     background-color: #506283;
-}
+}   
 
 
 /* bloco central */
@@ -22,7 +22,7 @@ body {
 .perfil {
     background-color: #d9d6d6;
     justify-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .perfil img {
@@ -76,6 +76,87 @@ body {
     margin-top: 0em;
     margin-bottom: 0em;
 }
+
+/* área de idiomas */
+#title {
+    display: flex;
+    align-items: center;
+    padding-left: 12%;
+    padding-top: 10%;
+}
+
+#portugues, #espanhol, #ingles {
+    display: flex;
+    align-items: center;
+    padding-left: 12%;
+    padding-top: 4%;
+}
+
+#portugues img, #espanhol img, #ingles img {
+    width: 5%;
+    padding-right: 3%;
+}
+
+#portugues p, #espanhol p, #ingles p {
+    font-weight: 700;
+    font-size: 1.2vw;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    width: 35%;
+    text-align: left;
+}
+
+.port_ball1, .port_ball2, .port_ball3, .port_ball4, .port_ball5, .port_ball6 {
+    background-color: #506283;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50px;
+    margin-right: 1.5%;
+} 
+
+.esp_ball1, .esp_ball2, .esp_ball3, .esp_ball4 {
+    background-color: #506283;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50px;
+    margin-right: 1.5%;
+}
+
+.esp_ball5, .esp_ball6 {
+    background-color: #d9d6d6;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50px;
+    margin-right: 1.5%;
+}
+
+.ing_ball1, .ing_ball2, .ing_ball3 {
+    background-color: #506283;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50px;
+    margin-right: 1.5%;
+}
+
+.ing_ball4, .ing_ball5, .ing_ball6 {
+    background-color: #d9d6d6;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50px;
+    margin-right: 1.5%;
+}
+
+/* títulos das áreas*/
+#title img {
+    width: 20%;
+    padding-right: 3%;
+}
+
+#title p {
+    font-weight: 700;
+    font-size: 1.8vw;
+    margin-top: 0em;
+    margin-bottom: 0em;}
 
 
 /* bloco da direita */
