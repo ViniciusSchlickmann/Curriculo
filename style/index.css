@@ -16,6 +16,7 @@ body {
     width: 31.5%;
     background-color: #ececec;    
     text-align: center;
+    padding-bottom: 3%;
 }
 
 /* área perfil */
@@ -61,7 +62,7 @@ body {
     display: flex;
     align-items: center;
     padding-left: 12%;
-    padding-top: 4%;
+    padding-top: 3%;
 }
 
 .contatos img {
@@ -146,6 +147,28 @@ body {
     margin-right: 1.5%;
 }
 
+/* área de habilidades */
+#skills {
+    display: flex;
+    align-items: center;
+    padding-left: 12%;
+    padding-top: 5%;
+}
+
+#skills img {
+    width: 5%;
+    padding-right: 3%;
+}
+
+#skills p {
+    font-weight: 700;
+    font-size: 1.2vw;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    width: 80%;
+    text-align: left;
+}
+
 /* títulos das áreas*/
 #title img {
     width: 20%;
@@ -156,7 +179,8 @@ body {
     font-weight: 700;
     font-size: 1.8vw;
     margin-top: 0em;
-    margin-bottom: 0em;}
+    margin-bottom: 0em;
+}
 
 
 /* bloco da direita */
