@@ -8,6 +8,8 @@ body {
 .esquerda {
     width: 3.5%;
     background-color: #506283;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
 }   
 
 
